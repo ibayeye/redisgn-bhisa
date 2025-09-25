@@ -1,0 +1,85 @@
+{
+  "transfer": {
+    "name": "Transfer Bank",
+    "accounts": [
+      { "bank": "BCA", "account": "1234567890", "name": "PT Bhinneka Sangkuriang Transport" },
+      {
+        "bank": "Mandiri",
+        "account": "9876543210",
+        "name": "PT Bhinneka Sangkuriang Transport"
+      },
+      { "bank": "BRI", "account": "5555666677", "name": "PT Bhinneka Sangkuriang Transport" }
+    ],
+    "tutorials": {
+      "BCA": [
+        "Buka aplikasi BCA Mobile atau kunjungi ATM BCA",
+        "Pilih menu Transfer > Ke Rekening BCA",
+        "Masukan nomor rekening: 1234567890",
+        "Masukan nominal sesuai tagihan",
+        "Konfirmasi dan simpan bukti transfer"
+      ],
+      "Mandiri": [
+        "Buka aplikasi Livin' by Mandiri",
+        "Pilih Transfer > Ke Rekening Mandiri",
+        "Masukan nomor rekening: 9876543210",
+        "Input nominal pembayaran",
+        "Konfirmasi dengan PIN/fingerprint"
+      ],
+      "BRI": [
+        "Buka aplikasi BRImo",
+        "Pilih Transfer > Sesama BRI",
+        "Input rekening: 5555666677",
+        "Masukan jumlah transfer",
+        "Selesaikan dengan mPIN"
+      ]
+    }
+  },
+  "qris": {
+    "name": "QRIS",
+    "qrCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+    "tutorials": {
+      "QRIS": [
+        "Buka aplikasi e-wallet atau mobile banking",
+        "Pilih fitur Scan QR atau QRIS",
+        "Arahkan kamera ke QR Code",
+        "Pastikan nominal sesuai tagihan",
+        "Konfirmasi pembayaran"
+      ]
+    }
+  },
+  "va": {
+    "name": "Virtual Account",
+    "accounts": [
+      { "bank": "BCA", "va": "12345XXXXXX", "code": "014" },
+      { "bank": "Mandiri", "va": "88608XXXXXX", "code": "008" },
+      { "bank": "BNI", "va": "9881XXXXXXX", "code": "009" },
+      { "bank": "BRI", "va": "26207XXXXXX", "code": "002" }
+    ],
+    "tutorials": {
+      "BCA": [
+        "Via ATM: Pilih Transaksi Lain > Transfer > Ke Rek BCA",
+        "Masukan nomor VA BCA",
+        "Masukan nominal sesuai tagihan",
+        "Via Mobile: BCA Mobile > m-Transfer > BCA Virtual Account"
+      ],
+      "Mandiri": [
+        "ATM Mandiri: Bayar/Beli > Multi Payment",
+        "Masukan kode 88608 + nomor VA",
+        "Mobile Banking: Transfer > Virtual Account Mandiri",
+        "Input 16 digit nomor VA"
+      ],
+      "BNI": [
+        "ATM BNI: Menu Lain > Transfer > Virtual Account Billing",
+        "Masukan 16 digit nomor VA BNI",
+        "BNI Mobile: Transfer > Virtual Account",
+        "Konfirmasi dengan PIN"
+      ],
+      "BRI": [
+        "ATM BRI: Transaksi Lain > Pembayaran > Lainnya",
+        "Pilih BRIVA, masukan nomor VA",
+        "BRImo: Pembayaran > BRIVA",
+        "Input 16 digit nomor BRIVA"
+      ]
+    }
+  }
+}

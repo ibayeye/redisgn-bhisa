@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "src": "https://bhisa.id/uploads/1710824021_diskon-5K-shuttle2.jpg",
+      "alt": "Potongan 5K",
+      "title": "Potongan 5K",
+      "description": "Shuttle",
+      "price": "5000",
+      "type": "Bhisa Point"
+    },
+    {
+      "src": "https://bhisa.id/uploads/1711095689_diskon-10K-shuttle.jpg",
+      "alt": "Potongan 10K",
+      "title": "Potongan 10K",
+      "description": "Shuttle",
+      "price": "10000",
+      "type": "Bhisa Point"
+    },
+    {
+      "src": "https://bhisa.id/uploads/1714971236_head-banner-poin.jpg",
+      "alt": "Potongan 20K",
+      "title": "Potongan 20K",
+      "description": "Shuttle",
+      "price": "20000",
+      "type": "Bhisa Point"
+    },
+    {
+      "src": "https://bhisa.id/uploads/1714981958_diskon10rb1.jpg",
+      "alt": "Member Baru",
+      "title": "⚡️Member Baru⚡️ Hemat s.d 10.000",
+      "description": "Shuttle",
+      "price": "10000",
+      "type": "Bhisa Point"
+    }
+  ]
+}

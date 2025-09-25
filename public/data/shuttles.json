@@ -1,0 +1,121 @@
+{
+  "schedules": [
+    {
+      "id": "JKT-BDG-0800-Blue",
+      "operator": "Blue Shuttle",
+      "origin": "Bandung",
+      "destination": "Jakarta",
+      "departures": ["08:00", "13:00", "19:00"],
+      "price": 120000,
+      "points": 1200
+    },
+    {
+      "id": "JKT-BDG-0801-Blue",
+      "operator": "Blue Shuttle",
+      "origin": "Bandung",
+      "destination": "Jakarta",
+      "departures": ["10:00", "15:00", "17:00"],
+      "price": 120000,
+      "points": 1200
+    },
+    {
+      "id": "BDG-SMD-0900-Blue",
+      "operator": "Blue Shuttle",
+      "origin": "Bandung",
+      "destination": "Sumedang",
+      "departures": ["09:00", "15:00"],
+      "price": 70000,
+      "points": 8200
+    },
+    {
+      "id": "BDG-BKS-0700-Primajasa",
+      "operator": "Primajasa",
+      "origin": "Bandung",
+      "destination": "Bekasi",
+      "departures": ["07:00", "12:00", "18:00"],
+      "price": 95000,
+      "points": 1500
+    },
+    {
+      "id": "BKS-BDG-0900-Primajasa",
+      "operator": "Primajasa",
+      "origin": "Bekasi",
+      "destination": "Bandung",
+      "departures": ["09:00", "14:00", "20:00"],
+      "price": 95000,
+      "points": 1500
+    },
+    {
+      "id": "JKT-BOG-0630-TravelX",
+      "operator": "TravelX",
+      "origin": "Jakarta",
+      "destination": "Bogor",
+      "departures": ["06:30", "09:30", "16:00"],
+      "price": 60000,
+      "points": 900
+    },
+    {
+      "id": "BOG-JKT-0700-TravelX",
+      "operator": "TravelX",
+      "origin": "Bogor",
+      "destination": "Jakarta",
+      "departures": ["07:00", "11:00", "19:00"],
+      "price": 60000,
+      "points": 900
+    },
+    {
+      "id": "TNG-BDG-0600-ShuttleKu",
+      "operator": "ShuttleKu",
+      "origin": "Tangerang",
+      "destination": "Bandung",
+      "departures": ["06:00", "12:00", "21:00"],
+      "price": 130000,
+      "points": 2000
+    },
+    {
+      "id": "BDG-TNG-0800-ShuttleKu",
+      "operator": "ShuttleKu",
+      "origin": "Bandung",
+      "destination": "Tangerang",
+      "departures": ["08:00", "14:00", "22:00"],
+      "price": 130000,
+      "points": 2000
+    },
+    {
+      "id": "JKT-DEP-0700-Blue",
+      "operator": "Blue Shuttle",
+      "origin": "Jakarta",
+      "destination": "Depok",
+      "departures": ["07:00", "13:00", "18:00"],
+      "price": 50000,
+      "points": 750
+    },
+    {
+      "id": "DEP-JKT-0830-Blue",
+      "operator": "Blue Shuttle",
+      "origin": "Depok",
+      "destination": "Jakarta",
+      "departures": ["08:30", "15:00", "20:00"],
+      "price": 50000,
+      "points": 750
+    },
+    {
+      "id": "JKT-CRB-0500-Primajasa",
+      "operator": "Primajasa",
+      "origin": "Jakarta",
+      "destination": "Cirebon",
+      "departures": ["05:00", "11:00", "17:00"],
+      "price": 150000,
+      "points": 2500
+    },
+    {
+      "id": "CRB-JKT-0600-Primajasa",
+      "operator": "Primajasa",
+      "origin": "Cirebon",
+      "destination": "Jakarta",
+      "departures": ["06:00", "12:00", "18:00"],
+      "price": 150000,
+      "points": 2500
+    }
+  ]
+}

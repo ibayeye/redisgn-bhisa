@@ -1,0 +1,18 @@
+{
+  "kursiOptions": [
+    { "value": "1", "label": "1 Kursi" },
+    { "value": "2", "label": "2 Kursi" },
+    { "value": "3", "label": "3 Kursi" },
+    { "value": "4", "label": "4 Kursi" },
+    { "value": "5", "label": "5 Kursi" },
+    { "value": "6", "label": "6 Kursi" },
+    { "value": "7", "label": "7 Kursi" },
+    { "value": "8", "label": "8 Kursi" },
+    { "value": "9", "label": "9 Kursi" },
+    { "value": "10", "label": "10 Kursi" },
+    { "value": "11", "label": "11 Kursi" },
+    { "value": "12", "label": "12 Kursi" },
+    { "value": "13", "label": "13 Kursi" },
+    { "value": "14", "label": "14 Kursi" }
+  ]
+}

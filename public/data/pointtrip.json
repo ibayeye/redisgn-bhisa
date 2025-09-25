@@ -1,0 +1,256 @@
+{
+  "PointKeberangkatan": [
+    {
+      "group": "Bandung",
+      "options": [
+        {
+          "value": "buahbatu",
+          "label": "Buah Batu",
+          "address": "Jl. Terusan Buah Batu No.227, Kujangsari, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40287"
+        },
+        {
+          "value": "mekarwangi",
+          "label": "Mekarwangi",
+          "address": "Jl. Soekarno Hatta No.385, Karasak, Kec. Astanaanyar, Kota Bandung, 40243"
+        },
+        {
+          "value": "pasteur",
+          "label": "Pasteur",
+          "address": "Jl. Dr. Djunjunan No.135 A, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40173"
+        },
+        {
+          "value": "dipatiukur",
+          "label": "Dipati Ukur",
+          "address": "Jl. Dipati Ukur 108, Lebakgede, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132"
+        },
+        {
+          "value": "alfamartcikalongwetan",
+          "label": "Alfamart Cikalong Wetan",
+          "address": "Kp Pasar No.Rt 06, Rt 06/Rw01, Ciptagumati, Kec. Cikalong Wetan, Kab. Bandung Barat, Jawa Barat 40556"
+        }
+      ]
+    },
+    {
+      "group": "Bekasi",
+      "options": [
+        {
+          "value": "lippo(rukoroxy)",
+          "label": "Lippo (Ruko Roxy)",
+          "address": "Bhineka Shuttle Cikarang - Ruko Roxy Blok A No.6, Jl. MH. Thamrin (Samping SPBU)"
+        },
+        {
+          "value": "pooljatiasih",
+          "label": "Pool Jatiasih",
+          "address": "Jl. Wibawa Mukti II No.70, RT.003/RW.009, Jatiasih, Kec. Jatiasih, Kota Bks, Jawa Barat 17423"
+        }
+      ]
+    },
+    {
+      "group": "Depok",
+      "options": [
+        {
+          "value": "margonda",
+          "label": "Margonda",
+          "address": "Jl. Margonda Raya No.358, Kemiri Muka, Kecamatan Beji, Kota Depok"
+        }
+      ]
+    },
+    {
+      "group": "Cirebon",
+      "options": [
+        {
+          "value": "terminalharjamukti",
+          "label": "Terminal Harjamukti",
+          "address": "Jl. By Pass Brigjen Dharsono, Kec. Harjamukti, Kota Cirebon"
+        }
+      ]
+    },
+    {
+      "group": "Jakarta",
+      "options": [
+        {
+          "value": "rawamangun",
+          "label": "Rawamangun",
+          "address": "Jl. Pemuda No.73, Rawamangun, Kota Jakarta Timur"
+        },
+        {
+          "value": "slipi",
+          "label": "Slipi",
+          "address": "Jl. Letjen S. Parman No.45, Slipi, Palmerah, Jakarta Barat"
+        },
+        {
+          "value": "blokm",
+          "label": "Blok M",
+          "address": "Jl. Sultan Hasanuddin Dalam, Kebayoran Baru, Jakarta Selatan"
+        }
+      ]
+    },
+    {
+      "group": "Tangerang",
+      "options": [
+        {
+          "value": "bsd",
+          "label": "BSD",
+          "address": "Jl. Pahlawan Seribu, Serpong, Kota Tangerang Selatan"
+        }
+      ]
+    },
+    {
+      "group": "Karawang",
+      "options": [
+        {
+          "value": "karawangbarat",
+          "label": "Karawang Barat",
+          "address": "Jl. Interchange Karawang Barat, Karawang"
+        }
+      ]
+    },
+    {
+      "group": "Purwakarta",
+      "options": [
+        {
+          "value": "simpangsadang",
+          "label": "Simpang Sadang",
+          "address": "Jl. Veteran No.12, Purwakarta"
+        }
+      ]
+    },
+    {
+      "group": "Sumedang",
+      "options": [
+        {
+          "value": "sumedang",
+          "label": "Sumedang",
+          "address": "Jl. Prabu Geusan Ulun, Kabupaten Sumedang"
+        }
+      ]
+    }
+  ],
+  "PointTujuan": [
+    {
+      "group": "Jakarta",
+      "options": [
+        {
+          "value": "rawamangun",
+          "label": "Rawamangun",
+          "address": "Jl. Pemuda No.73, Rawamangun, Kota Jakarta Timur"
+        },
+        {
+          "value": "slipi",
+          "label": "Slipi",
+          "address": "Jl. Letjen S. Parman No.45, Slipi, Palmerah, Jakarta Barat"
+        },
+        {
+          "value": "blokm",
+          "label": "Blok M",
+          "address": "Jl. Sultan Hasanuddin Dalam, Kebayoran Baru, Jakarta Selatan"
+        }
+      ]
+    },
+    {
+      "group": "Tangerang",
+      "options": [
+        {
+          "value": "bsd",
+          "label": "BSD",
+          "address": "Jl. Pahlawan Seribu, Serpong, Kota Tangerang Selatan"
+        }
+      ]
+    },
+    {
+      "group": "Karawang",
+      "options": [
+        {
+          "value": "karawangbarat",
+          "label": "Karawang Barat",
+          "address": "Jl. Interchange Karawang Barat, Karawang"
+        }
+      ]
+    },
+    {
+      "group": "Purwakarta",
+      "options": [
+        {
+          "value": "simpangsadang",
+          "label": "Simpang Sadang",
+          "address": "Jl. Veteran No.12, Purwakarta"
+        }
+      ]
+    },
+    {
+      "group": "Sumedang",
+      "options": [
+        {
+          "value": "sumedang",
+          "label": "Sumedang",
+          "address": "Jl. Prabu Geusan Ulun, Kabupaten Sumedang"
+        }
+      ]
+    },
+    {
+      "group": "Bandung",
+      "options": [
+        {
+          "value": "buahbatu",
+          "label": "Buah Batu",
+          "address": "Jl. Terusan Buah Batu No.227, Kujangsari, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40287"
+        },
+        {
+          "value": "mekarwangi",
+          "label": "Mekarwangi",
+          "address": "Jl. Soekarno Hatta No.385, Karasak, Kec. Astanaanyar, Kota Bandung, 40243"
+        },
+        {
+          "value": "pasteur",
+          "label": "Pasteur",
+          "address": "Jl. Dr. Djunjunan No.135 A, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40173"
+        },
+        {
+          "value": "dipatiukur",
+          "label": "Dipati Ukur",
+          "address": "Jl. Dipati Ukur 108, Lebakgede, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132"
+        },
+        {
+          "value": "alfamartcikalongwetan",
+          "label": "Alfamart Cikalong Wetan",
+          "address": "Kp Pasar No.Rt 06, Rt 06/Rw01, Ciptagumati, Kec. Cikalong Wetan, Kab. Bandung Barat, Jawa Barat 40556"
+        }
+      ]
+    },
+    {
+      "group": "Bekasi",
+      "options": [
+        {
+          "value": "lippo(rukoroxy)",
+          "label": "Lippo (Ruko Roxy)",
+          "address": "Bhineka Shuttle Cikarang - Ruko Roxy Blok A No.6, Jl. MH. Thamrin (Samping SPBU)"
+        },
+        {
+          "value": "pooljatiasih",
+          "label": "Pool Jatiasih",
+          "address": "Jl. Wibawa Mukti II No.70, RT.003/RW.009, Jatiasih, Kec. Jatiasih, Kota Bks, Jawa Barat 17423"
+        }
+      ]
+    },
+    {
+      "group": "Depok",
+      "options": [
+        {
+          "value": "margonda",
+          "label": "Margonda",
+          "address": "Jl. Margonda Raya No.358, Kemiri Muka, Kecamatan Beji, Kota Depok"
+        }
+      ]
+    },
+    {
+      "group": "Cirebon",
+      "options": [
+        {
+          "value": "terminalharjamukti",
+          "label": "Terminal Harjamukti",
+          "address": "Jl. By Pass Brigjen Dharsono, Kec. Harjamukti, Kota Cirebon"
+        }
+      ]
+    }
+  ]
+}

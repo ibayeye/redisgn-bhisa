@@ -1,0 +1,108 @@
+{
+  "PointBandung": [
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/cmh.jpg",
+      "alt": "Cimahi"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/icon-jatinangor.png",
+      "alt": "Jatinangor"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/bdg.jpg",
+      "alt": "Bandung"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/smd.jpg",
+      "alt": "Sumedang"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/iconpwkt.png",
+      "alt": "Purwakarta"
+    }
+  ],
+  "PointJadetabek": [
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/dpk.jpg",
+      "alt": "Depok"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/jkt.jpg",
+      "alt": "Jakarta"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/krw.jpg",
+      "alt": "Karawang"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/bks.jpg",
+      "alt": "Bekasi"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/tgr.jpg",
+      "alt": "Tangerang"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/ckr.jpg",
+      "alt": "Cikarang"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/cgsong2.jpg",
+      "alt": "Cibubur"
+    }
+  ],
+  "PointJawaTengah": [
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/pekalongan.png",
+      "alt": "Pekalongan"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/tegal.png",
+      "alt": "Tegal"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/yogya.png",
+      "alt": "Yogyakarta"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/magelang.png",
+      "alt": "Magelang"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/smg.jpg",
+      "alt": "Semarang"
+    }
+  ],
+  "PointCiayumajakuning": [
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/kng.jpg",
+      "alt": "Kuningan"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/cigasong.jpg",
+      "alt": "Majalengka"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/crb.jpg",
+      "alt": "Cirebon"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/idm.jpg",
+      "alt": "Indramayu"
+    }
+  ],
+  "PointSukabumiGarut": [
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/cjr.jpg",
+      "alt": "Cianjur"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/grt1.png",
+      "alt": "Garut"
+    },
+    {
+      "src": "https://bhisa.id/uploads/icon-kota/skb.jpg",
+      "alt": "Sukabumi"
+    }
+  ]
+}
