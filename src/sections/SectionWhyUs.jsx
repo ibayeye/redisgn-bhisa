@@ -1,8 +1,9 @@
 import React from "react";
 import Card from "../components/Card";
-import data from "../../public/data/whyus.json";
+import data from "../data/whyus.json";
 
 const SectionWhyUs = () => {
+
   return (
     <div className="container mx-auto">
       <h1 className="text-lg font-semibold text-neutral mb-4">Why Us?</h1>

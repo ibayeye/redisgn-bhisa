@@ -13,7 +13,7 @@ import SectionPromo from "../sections/SectionPromo";
 import SectionWhyUs from "../sections/SectionWhyUs";
 import SectionPartnership from "../sections/SectionPartnership";
 import SectionLocation from "../sections/SectionLocation";
-import data from "../../public/data/shuttles.json";
+import data from "../data/pointtrip.json";
 import Alert from "../components/Alert";
 
 const Dashboard = () => {

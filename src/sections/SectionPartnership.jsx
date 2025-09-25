@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../public/data/partnership.json";
+import data from "../data/partnership.json";
 
 const SectionPartnership = () => {
   return (

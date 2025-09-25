@@ -3,7 +3,7 @@ import { useLocation, useNavigate, useParams } from "react-router-dom";
 import Button from "../components/Button";
 import Fieldset from "../components/Fieldset";
 import Alert from "../components/Alert";
-import schedulesData from "../../public/data/shuttles.json";
+import schedulesData from "../data/shuttles.json";
 import { BsTicketPerforated } from "react-icons/bs";
 import TravelSummary from "../components/TravelSummary";
 import { formatRupiah } from "../utils/constant.js";

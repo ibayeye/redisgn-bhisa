@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import data from "../../public/data/pointarea.json";
+import data from "../data/pointarea.json";
 
 const SectionWilayah = () => {
   const [open, setOpen] = useState(null);

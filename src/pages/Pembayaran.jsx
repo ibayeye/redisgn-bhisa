@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { FaCheckCircle, FaDownload } from "react-icons/fa";
 import Button from "../components/Button";
-import paymentMethods from "../../public/data/paymentsmethods.json";
+import paymentMethods from "../data/paymentsmethods.json";
 import PaymentTutorial from "../components/PaymentTutorial";
 import InvoiceSummary from "../components/InvoiceSummary";
 import PaymentMethods from "../components/PaymentMethods";

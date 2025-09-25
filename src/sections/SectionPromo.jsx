@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
-import data from "../../public/data/promo.json";
+import data from "../data/promo.json";
 
 const SectionPromo = () => {
 
