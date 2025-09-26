@@ -19,7 +19,6 @@ const Dropdown = ({
   const [selectedOption, setSelectedOption] = useState(value || null);
   const dropdownRef = useRef(null);
 
-  // handle click outside
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -30,12 +29,10 @@ const Dropdown = ({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // update selectedOption ketika props `value` berubah
   useEffect(() => {
     if (value !== undefined) {
       let found = null;
 
-      // support grouped
       options.forEach((item) => {
         if (item.group && Array.isArray(item.options)) {
           const match = item.options.find((opt) => opt.value === value);
@@ -101,7 +98,6 @@ const Dropdown = ({
           {iconSide === "right" && icon && <span className="ml-2">{icon}</span>}
         </div>
 
-        {/* Dropdown Options */}
         {isOpen && !disabled && (
           <div className="absolute top-full left-0 right-0 z-[9999] mt-1 bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-y-auto">
             {options.length === 0 ? (
@@ -115,7 +111,6 @@ const Dropdown = ({
                     key={item.group || idx}
                     className="border-b border-gray-200"
                   >
-                    {/* Nama Group (kota) */}
                     <div className="px-4 py-2 text-lg font-bold text-[#e33320] bg-gray-50">
                       {item.group}
                     </div>
@@ -143,7 +138,6 @@ const Dropdown = ({
                     ))}
                   </div>
                 ) : (
-                  // fallback kalau datanya flat
                   <div
                     key={item.value || idx}
                     className={`px-4 py-2 cursor-pointer transition-colors duration-150 hover:bg-gray-50 ${

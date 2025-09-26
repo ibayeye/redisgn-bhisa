@@ -5,7 +5,6 @@ const SectionMembership = () => {
   return (
     <div className="bg-[#e33320] py-12 px-4 sm:px-6 lg:px-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12">
-        {/* Text */}
         <div className="flex-1 text-white flex flex-col justify-center text-center md:text-left">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-4">
             Jadi Member Bhisa Sekarang!
@@ -21,7 +20,6 @@ const SectionMembership = () => {
           </div>
         </div>
 
-        {/* Image */}
         <div className="flex-1 flex justify-center">
           <img
             src={membership}

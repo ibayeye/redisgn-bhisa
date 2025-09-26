@@ -21,7 +21,6 @@ const SectionWilayah = () => {
     <div className="container mx-auto py-8">
       <h1 className="text-xl font-bold mb-4">Pilih Wilayah</h1>
 
-      {/* MOBILE: Accordion */}
       <div className="sm:hidden space-y-2">
         {Object.keys(wilayah).map((key) => (
           <div key={key} className="border rounded-md">
@@ -53,7 +52,6 @@ const SectionWilayah = () => {
         ))}
       </div>
 
-      {/* TABLET: Tabs */}
       <div className="hidden sm:block lg:hidden">
         <div className="flex gap-4 mb-4 overflow-x-auto">
           {Object.keys(wilayah).map((key) => (
@@ -85,7 +83,6 @@ const SectionWilayah = () => {
         </div>
       </div>
 
-      {/* DESKTOP: Grid 12 kolom */}
       <div className="hidden lg:grid grid-cols-12 gap-4">
         {Object.keys(wilayah).map((key) => (
           <div

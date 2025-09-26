@@ -22,7 +22,6 @@ const ActivePaymentPanel = ({
         Detail {paymentMethods[activeMethod].name}
       </h4>
 
-      {/* Transfer */}
       {activeMethod === "transfer" && (
         <div className="grid gap-4 md:grid-cols-2">
           {paymentMethods.transfer.accounts.map((account, idx) => (
@@ -75,7 +74,6 @@ const ActivePaymentPanel = ({
         </div>
       )}
 
-      {/* QRIS */}
       {activeMethod === "qris" && (
         <div className="text-center">
           <div className="bg-white p-4 rounded-lg inline-block mb-4">
@@ -91,7 +89,6 @@ const ActivePaymentPanel = ({
         </div>
       )}
 
-      {/* Virtual Account */}
       {activeMethod === "va" && (
         <div className="grid gap-4 md:grid-cols-2">
           {paymentMethods.va.accounts.map((va, idx) => (
@@ -124,7 +121,6 @@ const ActivePaymentPanel = ({
         </div>
       )}
 
-      {/* Total Pembayaran */}
       <div className="bg-white rounded-lg p-4 border-2 border-[#e33320] mt-4">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <span className="font-medium text-base md:text-lg">

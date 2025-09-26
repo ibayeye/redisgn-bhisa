@@ -29,7 +29,6 @@ const SeatSelector = ({ maxSeats, selectedSeats, takenSeats, onToggle }) => {
         })}
       </div>
 
-      {/* Legend */}
       <div className="flex justify-center gap-6 mt-4 text-sm">
         <div className="flex items-center gap-2">
           <div className="w-4 h-4 bg-white border-2 border-gray-300 rounded"></div>

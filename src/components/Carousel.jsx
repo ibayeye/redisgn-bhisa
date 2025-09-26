@@ -27,7 +27,6 @@ const Carousel = () => {
 
   return (
     <div className="relative w-full max-w-7xl mx-auto overflow-hidden rounded-lg">
-      {/* Gambar */}
       <div className="relative h-96">
         {images.map((src, index) => (
           <img
@@ -41,7 +40,6 @@ const Carousel = () => {
         ))}
       </div>
 
-      {/* Tombol Prev & Next */}
       <div className="absolute inset-0 flex items-center justify-between px-4">
         <button
           onClick={handlePrev}
@@ -57,7 +55,6 @@ const Carousel = () => {
         </button>
       </div>
 
-      {/* Indicator (dot) */}
       <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
         {images.map((_, index) => (
           <button

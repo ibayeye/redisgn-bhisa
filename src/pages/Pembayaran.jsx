@@ -30,14 +30,12 @@ const Pembayaran = () => {
   const { scheduleId, seats, total, passengers, contact, discount } = state;
 
   const [activeMethod, setActiveMethod] = useState("transfer");
-  const [countdown, setCountdown] = useState(900); // 15 menit
+  const [countdown, setCountdown] = useState(900);
   const [showAccountNumber, setShowAccountNumber] = useState(false);
   const [copiedField, setCopiedField] = useState("");
 
-  // ✅ pakai custom hook untuk status pembayaran
   const { status: paymentStatus, confirmPayment } = usePaymentStatus();
 
-  // Countdown timer jalan hanya kalau masih pending
   useEffect(() => {
     if (paymentStatus === PAYMENT_STATUS.PENDING && countdown > 0) {
       const timer = setInterval(() => {
@@ -58,24 +56,20 @@ const Pembayaran = () => {
     <div className="min-h-screen bg-gray-50 py-6">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Main Content */}
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg shadow-sm p-6">
               <h1 className="text-2xl font-bold text-gray-800 mb-6">
                 Pembayaran
               </h1>
 
-              {/* Countdown Timer */}
               <CountdownTimer countdown={countdown} />
 
-              {/* Payment Methods */}
               <PaymentMethods
                 activeMethod={activeMethod}
                 setActiveMethod={setActiveMethod}
                 paymentMethods={paymentMethods}
               />
 
-              {/* Active Payment Method Panel */}
               <ActivePaymentPanel
                 activeMethod={activeMethod}
                 paymentMethods={paymentMethods}
@@ -86,23 +80,20 @@ const Pembayaran = () => {
                 totalBayar={totalBayar}
               />
 
-              {/* Tutorial */}
               <PaymentTutorial
                 paymentMethods={paymentMethods}
                 activeMethod={activeMethod}
               />
 
-              {/* Status + Action */}
               <PaymentStatusSection
                 status={paymentStatus}
                 contact={contact}
-                onConfirm={confirmPayment} // ✅ pakai hook
+                onConfirm={confirmPayment}
                 navigate={navigate}
               />
             </div>
           </div>
 
-          {/* Ringkasan Tagihan */}
           <div className="lg:col-span-1">
             <div className="sticky top-6">
               <InvoiceSummary
